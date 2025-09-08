@@ -1,7 +1,7 @@
 import { createProxyMiddleware } from "http-proxy-middleware";
 import { createServer } from "http";
 
-const target = "https://eaglercraft.com";
+const target = "https://eaglerhacks.github.io/wurstX.html";
 
 // Reusable handler
 const proxy = createProxyMiddleware({
